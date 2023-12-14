@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(242, 247, 250);
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:5vh;
+    text-align: center;
+}
+
+.top-main{
+    display: flex;
+    
+}
+
+/* *{
+    border:solid black 2px
+} */
+
+input{
+    margin:2.5vh 2vh 2vh 2vh ;
+    height:3.5vh;
+    width:15vw;
+}
+
+p{
+    font-size:3vh
+}
+
+button{
+    background-color: rgb(252, 40, 65);
+    padding:2vh 4vh 2vh 4vh;
+    border-radius: 10%;
+    border-color: rgb(241, 234, 248);
+    margin:1vh 0vh 0vh 1vh;
+    font-size:2vh;
+}
+
+h2{
+   text-align: center;
+   font-size:4vh
+}
+
+.label{
+    display:flex;
+    justify-content: space-around;
+    /* padding:0vh 5vh 0vh 8vh ; */
+    /* flex:1; */
+    gap: 150px;
+}
+
+.label p{
+    flex: 1;
+    text-align: center;
+}
+
+.lines{
+    border:solid black 2px;
+
+}
+
+.bottom-main{
+    border-top: solid black 1px;
+    margin: 2vw 2vw 0vw 2vw;
+    padding:0vw 0vw 4vw 0vw;
+}
+
+.infoBox{
+    display: flex;
+    justify-content: space-around;
+    border: solid black 1px;
+    flex: 1;
+    gap: 150px;
+}
+
+.infoBox p{
+    flex: 1;
+    text-align: center;
+}
